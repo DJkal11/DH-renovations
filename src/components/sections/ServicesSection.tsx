@@ -2,13 +2,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-interface Service {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  details: string;
-}
 
 const ServicesSection = () => {
   const [activeTab, setActiveTab] = useState('renovations');
