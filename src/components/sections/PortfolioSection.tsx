@@ -19,6 +19,21 @@ const PortfolioSection = () => {
 
   const projects: Project[] = [
     {
+      id: 'innovation-hub',
+      title: 'The Innovation Hub',
+      category: 'commercial',
+      images: [
+        '/portfolio/innovation-hub-1.jpeg',
+        '/portfolio/innovation-hub-2.jpeg',
+        '/portfolio/innovation-hub-3.jpeg',
+        '/portfolio/innovation-hub-4.jpeg',
+        '/portfolio/innovation-hub-5.jpeg',
+        '/portfolio/innovation-hub-6.jpeg',
+        '/portfolio/innovation-hub-7.jpeg'
+      ],
+      description: 'We transformed a traditional office space into a modern innovation hub featuring collaborative workspaces, advanced technology integration, and sustainable design elements. This project showcases our ability to blend functionality with cutting-edge design for commercial environments.'
+    },
+    {
       id: 'ablution-block',
       title: 'New Ablution Block',
       category: 'commercial',

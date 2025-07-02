@@ -32,13 +32,14 @@ const HeroSection = () => {
           </motion.h1>
           
           <motion.p 
-            className="text-xl mb-8 text-gray-200"
+            className="text-xl mb-4 text-gray-200"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Professional renovation services tailored to your vision. Quality craftsmanship for kitchens, bathrooms, and whole-home remodels.
+            Professional renovation services tailored to your vision. Serving both commercial and residential sectors, we provide expert solutions for businesses and homeowners alike with superior workmanship and quick turnaround times.
           </motion.p>
+          
           
           <motion.div 
             className="flex flex-col sm:flex-row gap-4"
