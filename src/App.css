@@ -12,9 +12,6 @@
   transition: filter 300ms;
 }
 
-.logo-header {
-  height: 5.5em;
-}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -43,4 +40,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.logo-header {
+  height: 5.5em;
 }

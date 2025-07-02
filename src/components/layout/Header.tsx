@@ -71,7 +71,7 @@ const Header = () => {
             <img 
               src="/portfolio/logo.png" 
               alt="Renovations Builder Logo" 
-              className="logo-header w-auto" 
+              className="w-auto h-[4.5em] md:h-[5.5em]" 
               loading="eager"
             />
           </motion.div>
